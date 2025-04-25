@@ -1,4 +1,4 @@
-import 'package:counter_app_using_all_state_management/Provider/home_page.dart';
+import 'package:counter_app_using_all_state_management/RiverPod/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: HomeScreen(),
     );
   }
 }
