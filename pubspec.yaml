@@ -38,6 +38,7 @@ dependencies:
   riverpod: ^2.6.1
   flutter_bloc: ^9.1.0
   get: ^4.7.2
+  flutter_redux: ^0.10.0
 
 dev_dependencies:
   flutter_test:

@@ -1,8 +1,8 @@
-import 'package:counter_app_using_all_state_management/Getx/getx_ui_screen.dart';
+import 'package:counter_app_using_all_state_management/Redux/redux_ui_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GetxUiScreen(),
+      home: ReduxUiScreen(),
     );
   }
 }
