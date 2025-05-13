@@ -1,8 +1,8 @@
-import 'package:counter_app_using_all_state_management/Hooks/hooks_ui_screen.dart';
+import 'package:counter_app_using_all_state_management/Provider/Counter%20App/counter_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
-  MyApp({super.key});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HooksUiScreen(),
+      home: CounterScreen(),
     );
   }
 }
